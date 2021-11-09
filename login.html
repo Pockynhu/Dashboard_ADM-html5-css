@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" href="login/assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="center-div">
+        <img src="login/assets/logo.png" alt="icone" class="center">
+        <h1>Fazer Login</h1>
+        <p class="error" id="error"></p>
+        <h2>Email</h2>
+        <input class="TextBox" placeholder="Digite seu email" id="email"></input>
+        <p class="Esqueci"><a href="teste.html" >Esqueci meu email</a></p>
+        <h2>Senha</h2>
+        <input type="password" id="password" class="TextBox" placeholder="Digite sua senha"><input class="check-box"  type="checkbox" onclick="MostrarSenha()"> <p class="mostrar-senha">Mostrar senha</p> 
+        <p class="Esqueci-minha-senha"><a href="teste.html" >Esqueci minha senha</a></p>
+        <button Class="button" onclick="login()"><a class=loginlink href="dashboard.html">LOGIN</a></button>
+    </main>
+
+    <script src="./teste.js"></script>
+</body>
+</html>
